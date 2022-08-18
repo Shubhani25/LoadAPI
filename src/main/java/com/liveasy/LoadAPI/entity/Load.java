@@ -15,7 +15,7 @@ public class Load {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "load_id")
-    private Integer LoadId;
+    private Integer id;
 
     @Column(name = "shipper_id")
     private Integer shipperId;
