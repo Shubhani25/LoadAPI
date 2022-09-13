@@ -1,0 +1,3 @@
+spring: boot
+database: postgreSQL
+port: 8080
